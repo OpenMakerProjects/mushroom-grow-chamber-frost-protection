@@ -1,0 +1,21 @@
+{
+  "id": 167,
+  "title": "Mushroom Grow Chamber Frost Protection",
+  "repository_slug": "mushroom-grow-chamber-frost-protection",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "RS-485",
+  "components": [
+    "pH sensor",
+    "load cell",
+    "solar charger"
+  ],
+  "scope": "Build a smart agriculture prototype that uses pH sensor, load cell, solar charger to trigger protection when frost risk rises. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Frost Protection demonstration with repeatable test steps",
+  "mode": "safety_latch",
+  "entrypoint": "firmware/mushroom-grow-chamber-frost-protection/mushroom-grow-chamber-frost-protection.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
